@@ -43,6 +43,11 @@
   </properties>
   <dependencies>
     <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>TalendSAX</artifactId>
+      <version>1.0.1-20190326</version>
+    </dependency>
+    <dependency>
       <groupId>net.minidev</groupId>
       <artifactId>accessors-smart</artifactId>
       <version>1.1</version>
@@ -81,11 +86,6 @@
       <groupId>org.dom4j</groupId>
       <artifactId>dom4j</artifactId>
       <version>2.1.1</version>
-    </dependency>
-    <dependency>
-      <groupId>jaxen</groupId>
-      <artifactId>jaxen</artifactId>
-      <version>1.1.6</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -134,7 +134,7 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>xpathutil-1.0.0</artifactId>
+      <artifactId>xercesImpl</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
