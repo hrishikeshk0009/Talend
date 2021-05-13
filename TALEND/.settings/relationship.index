@@ -72,6 +72,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_BOZk4LQLEeujrPo5oFWR1w",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
@@ -133,6 +137,18 @@
     "type" : "routine"
   }, {
     "id" : "_AhPKwLKIEeuukImFv3rE8w - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_BOZk4LQLEeujrPo5oFWR1w - DEPARTMENTS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_BOZk4LQLEeujrPo5oFWR1w - EMPLOYEES",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_BOZk4LQLEeujrPo5oFWR1w - LOCATIONS",
     "version" : "Latest",
     "type" : "schema"
   } ]
