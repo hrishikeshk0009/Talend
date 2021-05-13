@@ -43,11 +43,6 @@
   </properties>
   <dependencies>
     <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>TalendSAX</artifactId>
-      <version>1.0.1-20190326</version>
-    </dependency>
-    <dependency>
       <groupId>net.minidev</groupId>
       <artifactId>accessors-smart</artifactId>
       <version>1.1</version>
@@ -130,11 +125,6 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>talend_file_enhanced_20070724</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>xercesImpl</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
