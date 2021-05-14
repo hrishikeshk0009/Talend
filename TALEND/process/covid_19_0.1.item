@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default"/>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:qFQp42I1jjUkjFIwsEdpa73UbMSkaapLO+A7Uppd"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:NQGjTncI6HQaTi5ZVPlSYOsqB84HTE5GY+pDqVG2"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ArMosWF7yZPbOBwSg+1ojr9bt5+if8g8D89JQSVg"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:AXZPMmSnYJj7RcN7q38N9SbypIqfC1Ba0jj74xFI"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -129,13 +129,13 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;XEPDB1&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;hr&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UbJaxBRct4lGKaH4wh2kVNT3A+psvHqnPkElO98r4Aw24Bg="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:XIVrxYe8FMoKo3VYgfhcRCKcll0pmTrLOQUGYIsKAgWOcrs="/>
     <elementParameter field="CHECK" name="USE_SSL" show="false" value="false"/>
     <elementParameter field="FILE" name="SSL_TRUSTSERVER_TRUSTSTORE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" show="false" value="enc:system.encryption.key.v1:RGKjDnQuYERhmnhWcqb7a8XydqEWV/hzxdURTpBw"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" show="false" value="enc:system.encryption.key.v1:rd/geKgJglnqKAJkAIj6vGu5SvJKPDJe430/E488"/>
     <elementParameter field="CHECK" name="NEED_CLIENT_AUTH" show="false" value="false"/>
     <elementParameter field="FILE" name="SSL_KEYSTORE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:iPEOPo7YCJ13USQf44Hw52WOjfaggfBDU4O0UotA"/>
+    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:EnY5LRVE6TSf+5YaYbBVlraPzdsGLWvtNkcPn2o3"/>
     <elementParameter field="CHECK" name="DISABLE_CBC_PROTECTION" show="false" value="true"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -158,7 +158,7 @@
     <elementParameter field="TEXT" name="CAPTION" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tChronometerStop" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="224">
+  <node componentName="tChronometerStop" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="384">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tChronometerStop_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="SINCE_BEGINNING" value="true"/>
@@ -170,61 +170,634 @@
     <elementParameter field="CHECK" name="DISPLAY_READABLE_DURATION" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tOracleOutputBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="224">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutputBulkExec_1"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
-    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SID"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_18"/>
-    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;1521&quot;"/>
-    <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
-    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Dthmh2bwTCiMZr7Kx2/bk4VE3FtRtxcwDjZH9h++"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Covid_19&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_sfrHELSOEeuldsqpkhN3_Q"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_sfrHELSOEeuldsqpkhN3_Q - metadata"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;D:/Downloads/owid-covid-data.csv&quot;"/>
-    <elementParameter field="CHECK" name="CREATE" value="true"/>
-    <elementParameter field="CHECK" name="APPEND" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
-    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" show="false" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" show="false" value="_sfrHELSOEeuldsqpkhN3_Q - metadata"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" show="false" value="&quot;C:/Talend/Talend-Studio-20200219_1130-V7.3.1/workspace&quot;"/>
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
     <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CLT_FILE" value="false"/>
-    <elementParameter field="FILE" name="CLT_FILE" show="false" value="&quot;C:/Talend/Talend-Studio-20200219_1130-V7.3.1/workspace/sqlldr.ctl&quot;"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" show="false" value="10"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="iso_code"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="continent"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="location"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="date"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_cases"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_cases"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_cases_smoothed"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_deaths"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_deaths"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_deaths_smoothed"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_cases_per_million"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_cases_per_million"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_cases_smoothed_per_million"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_deaths_per_million"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_deaths_per_million"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_deaths_smoothed_per_million"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="reproduction_rate"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="icu_patients"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="icu_patients_per_million"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="hosp_patients"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="hosp_patients_per_million"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="weekly_icu_admissions"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="weekly_icu_admissions_per_million"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="weekly_hosp_admissions"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="weekly_hosp_admissions_per_million"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_tests"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_tests"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_tests_per_thousand"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_tests_per_thousand"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_tests_smoothed"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_tests_smoothed_per_thousand"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="positive_rate"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="tests_per_case"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="tests_units"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_vaccinations"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="people_vaccinated"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="people_fully_vaccinated"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_vaccinations"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_vaccinations_smoothed"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_vaccinations_per_hundred"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="people_vaccinated_per_hundred"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="people_fully_vaccinated_per_hundred"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_vaccinations_smoothed_per_million"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="stringency_index"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="population"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="population_density"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="median_age"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="aged_65_older"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="aged_70_older"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="gdp_per_capita"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="extreme_poverty"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="cardiovasc_death_rate"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="diabetes_prevalence"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="female_smokers"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="male_smokers"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="handwashing_facilities"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="hospital_beds_per_thousand"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="life_expectancy"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="human_development_index"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;US-ASCII&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="iso_code"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="continent"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="location"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="date"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_cases"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_cases"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_cases_smoothed"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_deaths"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_deaths"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_deaths_smoothed"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_cases_per_million"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_cases_per_million"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_cases_smoothed_per_million"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_deaths_per_million"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_deaths_per_million"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_deaths_smoothed_per_million"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="reproduction_rate"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="icu_patients"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="icu_patients_per_million"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="hosp_patients"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="hosp_patients_per_million"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="weekly_icu_admissions"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="weekly_icu_admissions_per_million"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="weekly_hosp_admissions"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="weekly_hosp_admissions_per_million"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_tests"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_tests"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_tests_per_thousand"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_tests_per_thousand"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_tests_smoothed"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_tests_smoothed_per_thousand"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="positive_rate"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="tests_per_case"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="tests_units"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_vaccinations"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="people_vaccinated"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="people_fully_vaccinated"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_vaccinations"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_vaccinations_smoothed"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="total_vaccinations_per_hundred"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="people_vaccinated_per_hundred"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="people_fully_vaccinated_per_hundred"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="new_vaccinations_smoothed_per_million"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="stringency_index"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="population"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="population_density"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="median_age"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="aged_65_older"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="aged_70_older"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="gdp_per_capita"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="extreme_poverty"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="cardiovasc_death_rate"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="diabetes_prevalence"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="female_smokers"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="male_smokers"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="handwashing_facilities"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="hospital_beds_per_thousand"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="life_expectancy"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="human_development_index"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" show="false" value=""/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="LABEL" value="Covid_data"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_1">
+      <column comment="" key="false" length="3" name="iso_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="continent" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="location" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="total_cases" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="new_cases" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="new_cases_smoothed" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="total_deaths" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="new_deaths" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="new_deaths_smoothed" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="total_cases_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="new_cases_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="new_cases_smoothed_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="total_deaths_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="new_deaths_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="new_deaths_smoothed_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="reproduction_rate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="icu_patients" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="icu_patients_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="hosp_patients" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="hosp_patients_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="weekly_icu_admissions" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="weekly_icu_admissions_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="weekly_hosp_admissions" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="weekly_hosp_admissions_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_tests" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="total_tests" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="total_tests_per_thousand" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_tests_per_thousand" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_tests_smoothed" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_tests_smoothed_per_thousand" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="positive_rate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="tests_per_case" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="tests_units" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="total_vaccinations" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="people_vaccinated" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="people_fully_vaccinated" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_vaccinations" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_vaccinations_smoothed" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="total_vaccinations_per_hundred" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="people_vaccinated_per_hundred" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="people_fully_vaccinated_per_hundred" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_vaccinations_smoothed_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="stringency_index" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="population" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="population_density" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="median_age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="aged_65_older" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="aged_70_older" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="gdp_per_capita" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="extreme_poverty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="cardiovasc_death_rate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="diabetes_prevalence" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="female_smokers" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="male_smokers" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="handwashing_facilities" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="hospital_beds_per_thousand" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="life_expectancy" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="human_development_index" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="metadata" name="REJECT">
+      <column comment="" key="false" length="3" name="iso_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="continent" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="location" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="total_cases" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="new_cases" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="new_cases_smoothed" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="total_deaths" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="new_deaths" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="new_deaths_smoothed" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="total_cases_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="new_cases_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="new_cases_smoothed_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="total_deaths_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="new_deaths_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="new_deaths_smoothed_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="reproduction_rate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="icu_patients" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="icu_patients_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="hosp_patients" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="hosp_patients_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="weekly_icu_admissions" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="weekly_icu_admissions_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="weekly_hosp_admissions" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="weekly_hosp_admissions_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_tests" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="total_tests" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="total_tests_per_thousand" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_tests_per_thousand" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_tests_smoothed" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_tests_smoothed_per_thousand" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="positive_rate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="tests_per_case" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="tests_units" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="total_vaccinations" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="people_vaccinated" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="people_fully_vaccinated" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_vaccinations" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_vaccinations_smoothed" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="total_vaccinations_per_hundred" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="people_vaccinated_per_hundred" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="people_fully_vaccinated_per_hundred" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_vaccinations_smoothed_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="stringency_index" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="population" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="population_density" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="median_age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="aged_65_older" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="aged_70_older" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="gdp_per_capita" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="extreme_poverty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="cardiovasc_death_rate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="diabetes_prevalence" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="female_smokers" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="male_smokers" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="handwashing_facilities" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="hospital_beds_per_thousand" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="life_expectancy" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="human_development_index" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="384" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_wJefULSOEeuldsqpkhN3_Q-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out1">
+      <column comment="" key="false" length="3" name="iso_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="continent" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="location" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="total_cases" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="new_cases" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="new_cases_smoothed" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="total_deaths" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="new_deaths" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="new_deaths_smoothed" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="total_cases_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="new_cases_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="new_cases_smoothed_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="total_deaths_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="new_deaths_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="new_deaths_smoothed_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="reproduction_rate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="icu_patients" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="icu_patients_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="hosp_patients" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="hosp_patients_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="weekly_icu_admissions" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="weekly_icu_admissions_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="weekly_hosp_admissions" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="weekly_hosp_admissions_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_tests" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="total_tests" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="total_tests_per_thousand" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_tests_per_thousand" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_tests_smoothed" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_tests_smoothed_per_thousand" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="positive_rate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="tests_per_case" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="tests_units" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="total_vaccinations" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="people_vaccinated" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="people_fully_vaccinated" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_vaccinations" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_vaccinations_smoothed" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="total_vaccinations_per_hundred" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="people_vaccinated_per_hundred" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="people_fully_vaccinated_per_hundred" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="new_vaccinations_smoothed_per_million" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="stringency_index" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="population" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="population_density" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="median_age" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="aged_65_older" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="aged_70_older" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="gdp_per_capita" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="extreme_poverty" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="cardiovasc_death_rate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="diabetes_prevalence" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="female_smokers" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="male_smokers" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="handwashing_facilities" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="hospital_beds_per_thousand" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="life_expectancy" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="human_development_index" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" type="id_Float" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="out1" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.iso_code " name="iso_code" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.continent " name="continent" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.location " name="location" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.date " name="date" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.total_cases " name="total_cases" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.new_cases " name="new_cases" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.new_cases_smoothed " name="new_cases_smoothed" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.total_deaths " name="total_deaths" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.new_deaths " name="new_deaths" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.new_deaths_smoothed " name="new_deaths_smoothed" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.total_cases_per_million " name="total_cases_per_million" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.new_cases_per_million " name="new_cases_per_million" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.new_cases_smoothed_per_million " name="new_cases_smoothed_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.total_deaths_per_million " name="total_deaths_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.new_deaths_per_million " name="new_deaths_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.new_deaths_smoothed_per_million " name="new_deaths_smoothed_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.reproduction_rate " name="reproduction_rate" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.icu_patients " name="icu_patients" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.icu_patients_per_million " name="icu_patients_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.hosp_patients " name="hosp_patients" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.hosp_patients_per_million " name="hosp_patients_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.weekly_icu_admissions " name="weekly_icu_admissions" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.weekly_icu_admissions_per_million " name="weekly_icu_admissions_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.weekly_hosp_admissions " name="weekly_hosp_admissions" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.weekly_hosp_admissions_per_million " name="weekly_hosp_admissions_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.new_tests " name="new_tests" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.total_tests " name="total_tests" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.total_tests_per_thousand " name="total_tests_per_thousand" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.new_tests_per_thousand " name="new_tests_per_thousand" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.new_tests_smoothed " name="new_tests_smoothed" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.new_tests_smoothed_per_thousand " name="new_tests_smoothed_per_thousand" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.positive_rate " name="positive_rate" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.tests_per_case " name="tests_per_case" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.tests_units " name="tests_units" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.total_vaccinations " name="total_vaccinations" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.people_vaccinated " name="people_vaccinated" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.people_fully_vaccinated " name="people_fully_vaccinated" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.new_vaccinations " name="new_vaccinations" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.new_vaccinations_smoothed " name="new_vaccinations_smoothed" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.total_vaccinations_per_hundred " name="total_vaccinations_per_hundred" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.people_vaccinated_per_hundred " name="people_vaccinated_per_hundred" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.people_fully_vaccinated_per_hundred " name="people_fully_vaccinated_per_hundred" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.new_vaccinations_smoothed_per_million " name="new_vaccinations_smoothed_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.stringency_index " name="stringency_index" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.population " name="population" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.population_density " name="population_density" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.median_age " name="median_age" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.aged_65_older " name="aged_65_older" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.aged_70_older " name="aged_70_older" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.gdp_per_capita " name="gdp_per_capita" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.extreme_poverty " name="extreme_poverty" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.cardiovasc_death_rate " name="cardiovasc_death_rate" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.diabetes_prevalence " name="diabetes_prevalence" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.female_smokers " name="female_smokers" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.male_smokers " name="male_smokers" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.handwashing_facilities " name="handwashing_facilities" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.hospital_beds_per_thousand " name="hospital_beds_per_thousand" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.life_expectancy " name="life_expectancy" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row1.human_development_index " name="human_development_index" nullable="true" type="id_Float"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="iso_code" nullable="true" type="id_String"/>
+        <mapperTableEntries name="continent" nullable="true" type="id_String"/>
+        <mapperTableEntries name="location" nullable="true" type="id_String"/>
+        <mapperTableEntries name="date" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="total_cases" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="new_cases" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="new_cases_smoothed" nullable="true" type="id_String"/>
+        <mapperTableEntries name="total_deaths" nullable="true" type="id_String"/>
+        <mapperTableEntries name="new_deaths" nullable="true" type="id_String"/>
+        <mapperTableEntries name="new_deaths_smoothed" nullable="true" type="id_String"/>
+        <mapperTableEntries name="total_cases_per_million" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="new_cases_per_million" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="new_cases_smoothed_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries name="total_deaths_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries name="new_deaths_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries name="new_deaths_smoothed_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries name="reproduction_rate" nullable="true" type="id_String"/>
+        <mapperTableEntries name="icu_patients" nullable="true" type="id_String"/>
+        <mapperTableEntries name="icu_patients_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries name="hosp_patients" nullable="true" type="id_String"/>
+        <mapperTableEntries name="hosp_patients_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries name="weekly_icu_admissions" nullable="true" type="id_String"/>
+        <mapperTableEntries name="weekly_icu_admissions_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries name="weekly_hosp_admissions" nullable="true" type="id_String"/>
+        <mapperTableEntries name="weekly_hosp_admissions_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries name="new_tests" nullable="true" type="id_String"/>
+        <mapperTableEntries name="total_tests" nullable="true" type="id_String"/>
+        <mapperTableEntries name="total_tests_per_thousand" nullable="true" type="id_String"/>
+        <mapperTableEntries name="new_tests_per_thousand" nullable="true" type="id_String"/>
+        <mapperTableEntries name="new_tests_smoothed" nullable="true" type="id_String"/>
+        <mapperTableEntries name="new_tests_smoothed_per_thousand" nullable="true" type="id_String"/>
+        <mapperTableEntries name="positive_rate" nullable="true" type="id_String"/>
+        <mapperTableEntries name="tests_per_case" nullable="true" type="id_String"/>
+        <mapperTableEntries name="tests_units" nullable="true" type="id_String"/>
+        <mapperTableEntries name="total_vaccinations" nullable="true" type="id_String"/>
+        <mapperTableEntries name="people_vaccinated" nullable="true" type="id_String"/>
+        <mapperTableEntries name="people_fully_vaccinated" nullable="true" type="id_String"/>
+        <mapperTableEntries name="new_vaccinations" nullable="true" type="id_String"/>
+        <mapperTableEntries name="new_vaccinations_smoothed" nullable="true" type="id_String"/>
+        <mapperTableEntries name="total_vaccinations_per_hundred" nullable="true" type="id_String"/>
+        <mapperTableEntries name="people_vaccinated_per_hundred" nullable="true" type="id_String"/>
+        <mapperTableEntries name="people_fully_vaccinated_per_hundred" nullable="true" type="id_String"/>
+        <mapperTableEntries name="new_vaccinations_smoothed_per_million" nullable="true" type="id_String"/>
+        <mapperTableEntries name="stringency_index" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="population" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="population_density" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="median_age" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="aged_65_older" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="aged_70_older" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="gdp_per_capita" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="extreme_poverty" nullable="true" type="id_String"/>
+        <mapperTableEntries name="cardiovasc_death_rate" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="diabetes_prevalence" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="female_smokers" nullable="true" type="id_String"/>
+        <mapperTableEntries name="male_smokers" nullable="true" type="id_String"/>
+        <mapperTableEntries name="handwashing_facilities" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="hospital_beds_per_thousand" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="life_expectancy" nullable="true" type="id_Float"/>
+        <mapperTableEntries name="human_development_index" nullable="true" type="id_Float"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tOracleOutputBulk" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutputBulk_1"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;D:/app/out.csv&quot;"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="System.getProperty(&quot;line.separator&quot;)"/>
     <elementParameter field="CHECK" name="USE_FIELDS_ENCLOSURE" value="false"/>
     <elementParameter field="TEXT" name="FIELDS_ENCLOSURE_LEFT" show="false" value="&quot;\&quot;&quot;"/>
     <elementParameter field="TEXT" name="FIELDS_ENCLOSURE_RIGHT" show="false" value="&quot;\&quot;&quot;"/>
-    <elementParameter field="CHECK" name="INPUT_INTO_TABLE_CLAUSE" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="INTO_TABLE_CLAUSE" show="false" value="&quot;--EXAMPLE(loading data into multiple table): REPLACE INTO TABLE emp (empno POSITION(1:4) INTEGER EXTERNAL, ename POSITION(6:15) CHAR) INTO TABLE proj WHEN projno != ’ ’ (empno POSITION(1:4) INTEGER EXTERNAL,projno POSITION(25:27) INTEGER EXTERNAL)&quot;"/>
-    <elementParameter field="CHECK" name="USE_DATE_PATTERN" value="false"/>
-    <elementParameter field="CHECK" name="FIELD_CONDITION" value="false"/>
-    <elementParameter field="FILE" name="FIELD_CONDITION_VALUE" show="false" value="&quot;country='France'&quot;"/>
-    <elementParameter field="CHECK" name="PRESERVE_BLANKS" value="true"/>
-    <elementParameter field="CHECK" name="TRAILING_NULLCOLS" value="false"/>
-    <elementParameter field="TABLE" name="OPTIONS"/>
-    <elementParameter field="CLOSED_LIST" name="NLS_LANGUAGE" value="DEFAULT"/>
-    <elementParameter field="CHECK" name="SET_NLS_TERRITORY" value="true"/>
-    <elementParameter field="CLOSED_LIST" name="NLS_TERRITORY" value="DEFAULT"/>
-    <elementParameter field="TABLE" name="NLSOPTIONS" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="OPENED_LIST" name="ORACLE_ENCODING" value="&quot;UTF8&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="OUTPUT" value="OUTPUT_TO_CONSOLE"/>
-    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_UPPERCASE" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DATE_LOCALE" value="DEFAULT"/>
+    <elementParameter field="TEXT" name="CUSTOM_DATE_LOCALE" show="false" value="&quot;en&quot;"/>
     <elementParameter field="TEXT" name="BUFFER_SIZE" value="8192"/>
     <elementParameter field="TEXT" name="STRING_BUILDER_SIZE" value="1024"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tDBOutputBulkExec_1">
+    <metadata connector="FLOW" name="tDBOutputBulk_1">
       <column comment="" key="false" length="3" name="iso_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="continent" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="11" name="location" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
@@ -286,11 +859,77 @@
       <column comment="" key="false" length="5" name="human_development_index" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="4" sourceType="FLOAT" type="id_Float" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tOracleBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBBulkExec_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_18"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;1521&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:KzhvprCtgFMtgOd0I/X+Qs6E7pM5NWWS4BffPVeP"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Covid_19&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
+    <elementParameter field="LABEL" name="NOTE" value="Warning : this component configuration will automatically generate a commit before bulk insert"/>
+    <elementParameter field="FILE" name="DATA" value="&quot;D:/app/out.csv&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CLT_FILE" value="false"/>
+    <elementParameter field="FILE" name="CLT_FILE" show="false" value="&quot;C:/Talend/Talend-Studio-20200219_1130-V7.3.1/workspace/sqlldr.ctl&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="RECORD_FORMAT" value="DEFAULT"/>
+    <elementParameter field="TEXT" name="TERMINATOR_STRING" show="false" value="&quot;\\n&quot;"/>
+    <elementParameter field="TEXT" name="RECORD_LENGTH" show="false" value="20"/>
+    <elementParameter field="TEXT" name="RECORD_LENGTH_FIELD_SIZE" show="false" value="3"/>
+    <elementParameter field="CHECK" name="INPUT_INTO_TABLE_CLAUSE" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="INTO_TABLE_CLAUSE" show="false" value="&quot;--EXAMPLE(loading data into multiple table): REPLACE INTO TABLE emp (empno POSITION(1:4) INTEGER EXTERNAL, ename POSITION(6:15) CHAR) INTO TABLE proj WHEN projno != ’ ’ (empno POSITION(1:4) INTEGER EXTERNAL,projno POSITION(25:27) INTEGER EXTERNAL)&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="FIELDS_TERMINATOR" value="OTHER"/>
+    <elementParameter field="TEXT" name="TERMINATOR_VALUE" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="USE_FIELDS_ENCLOSURE" value="false"/>
+    <elementParameter field="TEXT" name="FIELDS_ENCLOSURE_LEFT" show="false" value="&quot;\&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDS_ENCLOSURE_RIGHT" show="false" value="&quot;\&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_DATE_PATTERN" value="false"/>
+    <elementParameter field="CHECK" name="FIELD_CONDITION" value="false"/>
+    <elementParameter field="FILE" name="FIELD_CONDITION_VALUE" show="false" value="&quot;country='France'&quot;"/>
+    <elementParameter field="CHECK" name="PRESERVE_BLANKS" value="false"/>
+    <elementParameter field="CHECK" name="TRAILING_NULLCOLS" value="false"/>
+    <elementParameter field="TABLE" name="OPTIONS"/>
+    <elementParameter field="CLOSED_LIST" name="NLS_LANGUAGE" value="DEFAULT"/>
+    <elementParameter field="CLOSED_LIST" name="NLS_DATE_LANGUAGE" value="DEFAULT"/>
+    <elementParameter field="CHECK" name="SET_NLS_TERRITORY" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="NLS_TERRITORY" value="DEFAULT"/>
+    <elementParameter field="TABLE" name="NLSOPTIONS" show="false"/>
+    <elementParameter field="OPENED_LIST" name="ENCODING" value="&quot;UTF8&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="OUTPUT" value="OUTPUT_TO_CONSOLE"/>
+    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_UPPERCASE" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBBulkExec_1"/>
+  </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tChronometerStart_1">
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
   </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBOutputBulkExec_1" offsetLabelX="0" offsetLabelY="0" source="tDBOutputBulkExec_1" target="tChronometerStop_1"/>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tDBBulkExec_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tDBOutputBulk_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out1"/>
+  </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
@@ -307,17 +946,22 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutputBulkExec_1"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c3487b73-9b41-47ba-919f-0ff1cd82f8cd"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>a2XCTojx3MKVQgST+q3edIyOS51pvLMoKpuqP1hNnsNNDYQd6iyWFEMmOsYsroGdjgOKRpLoP7M+&#13;
-p0kdb4FrEw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2d839dd5-4472-44e5-9d6a-71e89878809d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4/4cCxjTbpmuv6UfYAFzt7kucW5FvDBubIcXyXOsLtZvEWhIV3pQB2mH3STimVbH8rRAr4/4Ji2G&#13;
-TherreEfuA==</DigestValue></Reference></SignedInfo><SignatureValue>DMGI+A4r74kl88rCiRAQpSYtb2Kk/uimdvkwKQfqoDuHIdwQNUITx0K4pW6sHseO0i70Sc2UTRmD&#13;
-PowG+bXBBkQn4zwd3DcZDDA0hDSx6W+TqA0u66m6MZUClVCZ9NJJYTsERzZlmVm9+DEx6CLYiRuV&#13;
-U3FMBlBN7vVsi3pQgjbvJhyRLRbbGzsQgHQ3c5Vj7Fqzwdaa9yZUNdcxWNkmuaP/VSeMssjSXrgF&#13;
-CC3OpNuFpejKax3B3GkiwWBl6q63HSQn8EwNri6xXcEZZhrgtvg/KSoLF3cBrgHT/iuZfOXec8FE&#13;
-QPPgoG4U/TvNGVaDtb1uqTbW0nSzYlyh4aZSww==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBBulkExec_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_480f76b8-fd50-470c-a85e-2fe148ca6fb3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>vrdTN90ulsafM8FoOre2hEYxsmydKcopJ8Ucq5sRVNVXHMBaKrhxGvH+VYTnov1YZFOcLK95ZO4H&#13;
+753L8DF5fA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_744fbc35-8531-464c-ac66-673077b5fe5d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>FuBxBP+pKoXLCJtX5GHTgMNULKsRzZTblq7RSTtAghma3NhkdxPak/y/7x2txabw2d76pJINk/t/&#13;
+EkrYSH9c8Q==</DigestValue></Reference></SignedInfo><SignatureValue>JtPQnIqn2XmMWkbn3wgTPlwpZDptnW+/r4b1fiarMeDTJ5sHGtbs4Qmir2AG+NM+sdN6lNQByVEV&#13;
+iIhMhmgU0Zv13m3og6cS/jAi1KwXZYXrtL2MIpcOfsrVTbOXdX0HQeNJ80a7rmz30jcaBRrULwWk&#13;
+YO/iIX/XN1rsw4zaGSDdz3DsdgjnYTZNybPUvovFwJnp5cp1PEvjMmRbj1//9PY0X946jCSdlzQq&#13;
+NBX8vfRDVFMNRWvOlHd8BXQ3CMf7ga/MtyYeUXnasTHjJlAyzXnZGS6zf2i3YiJqEn6eYWc06NnT&#13;
+CUxGhdgz2kNbpA/fVM1bSe3PO1j+Vv2FCFummg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -339,4 +983,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2d839dd5-4472-44e5-9d6a-71e89878809d" Target="#_c3487b73-9b41-47ba-919f-0ff1cd82f8cd"><Timestamp>2021-05-14 08:58:54</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_744fbc35-8531-464c-ac66-673077b5fe5d" Target="#_480f76b8-fd50-470c-a85e-2fe148ca6fb3"><Timestamp>2021-05-14 09:04:05</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
