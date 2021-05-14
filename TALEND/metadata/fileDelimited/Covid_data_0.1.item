@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DelimitedFileConnection Encoding="US-ASCII" FieldSeparatorType="Comma" FieldSeparatorValue="&quot;,&quot;" FilePath="D:/Downloads/owid-covid-data.csv" FirstLineCaption="true" Format="WINDOWS" HeaderValue="1" RowSeparatorValue="&quot;\n&quot;" Server="Localhost 127.0.0.1" UseHeader="true" dataPackage="_sfruIbSOEeuldsqpkhN3_Q" name="Covid_data" xmi:id="_sfruILSOEeuldsqpkhN3_Q"/>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_sfruILSOEeuldsqpkhN3_Q" name="default" xmi:id="_sfruIbSOEeuldsqpkhN3_Q">
+    <ownedElement id="_keL84LSOEeuldsqpkhN3_Q" label="metadata" xmi:id="_sfruIrSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="iso_code" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruI7SOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="continent" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruJLSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="location" length="11" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruJbSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="date" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_sfruJrSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="total_cases" length="5" pattern="&quot;dd-MM-yyyy&quot;" precision="2" talendType="id_Float" xmi:id="_sfruJ7SOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="new_cases" length="4" pattern="&quot;dd-MM-yyyy&quot;" precision="2" talendType="id_Float" xmi:id="_sfruKLSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="new_cases_smoothed" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruKbSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="total_deaths" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruKrSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="new_deaths" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruK7SOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="new_deaths_smoothed" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruLLSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="total_cases_per_million" length="6" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_sfruLbSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="new_cases_per_million" length="5" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_sfruLrSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="new_cases_smoothed_per_million" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruL7SOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="total_deaths_per_million" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruMLSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="new_deaths_per_million" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruMbSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="new_deaths_smoothed_per_million" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruMrSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="reproduction_rate" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruM7SOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="icu_patients" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruNLSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="icu_patients_per_million" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruNbSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="hosp_patients" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruNrSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="hosp_patients_per_million" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruN7SOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="weekly_icu_admissions" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruOLSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="weekly_icu_admissions_per_million" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruObSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="weekly_hosp_admissions" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruOrSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="weekly_hosp_admissions_per_million" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruO7SOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="new_tests" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruPLSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="total_tests" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruPbSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="total_tests_per_thousand" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruPrSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="new_tests_per_thousand" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruP7SOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="new_tests_smoothed" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruQLSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="new_tests_smoothed_per_thousand" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruQbSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="positive_rate" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruQrSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="tests_per_case" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruQ7SOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="tests_units" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruRLSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="total_vaccinations" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruRbSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="people_vaccinated" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruRrSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="people_fully_vaccinated" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruR7SOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="new_vaccinations" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruSLSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="new_vaccinations_smoothed" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruSbSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="total_vaccinations_per_hundred" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruSrSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="people_vaccinated_per_hundred" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruS7SOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="people_fully_vaccinated_per_hundred" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruTLSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="new_vaccinations_smoothed_per_million" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruTbSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="stringency_index" length="5" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_sfruTrSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="population" length="10" pattern="&quot;dd-MM-yyyy&quot;" precision="2" talendType="id_Float" xmi:id="_sfruT7SOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="population_density" length="6" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_sfruULSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="median_age" length="4" pattern="&quot;dd-MM-yyyy&quot;" precision="2" talendType="id_Float" xmi:id="_sfruUbSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="aged_65_older" length="5" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_sfruUrSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="aged_70_older" length="5" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_sfruU7SOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="gdp_per_capita" length="8" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_sfruVLSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="extreme_poverty" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruVbSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="cardiovasc_death_rate" length="7" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_sfruVrSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="diabetes_prevalence" length="4" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_sfruV7SOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="female_smokers" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruWLSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="male_smokers" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_sfruWbSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="handwashing_facilities" length="6" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_sfruWrSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="hospital_beds_per_thousand" length="3" pattern="&quot;dd-MM-yyyy&quot;" precision="2" talendType="id_Float" xmi:id="_sfruW7SOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="life_expectancy" length="5" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_sfruXLSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="human_development_index" length="5" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_sfruXbSOEeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0906197b-c50f-44d8-9de0-203f296194d4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kEV+a1C2Ag6qu2Dgzxf87t5S1Ij+dRjTQqxHJxUxr+SU3jbs5tugaG/RaZ7UA5QtF0sVXCvvf6UL&#13;
+1QMtBhb8jg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_12388373-1332-455c-823c-4699f79aa4c6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>tG9F/Oj6LQTAeuUO/QxLbj0x+PjDDP61h+gCvH6FkvkyASUwmWT4BLLtNa1mUTKWPpzn+7aY7XEy&#13;
+186G0Z//Xg==</DigestValue></Reference></SignedInfo><SignatureValue>U563mGcXnHQmhCB9D8UALVotU6QXD61kW6/d+jYmkpR80eTVnizcsFK1vZ6GSb1h2O8d1Hqjpg2N&#13;
+9I39wDZIia0ZHxnoHL1tWBI3YWHtpXT+W1K1FTGMJcZjrwRsXHzVeBkMUcx26v/MJNZYZs0Gsgbf&#13;
+ZLh0F/wFo1C1GFsYnsfsn2FdD4sE1Xzeqn+MTLYtRlGXiExhwO+MKE6ISPk2rwq09E6FrqjFraYC&#13;
+3/iMAZAAJ5R+pBIXSrx+NXABVpjhAqdt4jF9QY9qJpfYINMyFW116edN8WxqJGxTeTv2mTwvebJ6&#13;
+CfP8SBAc/kaledYmKiQkWNbtsvibftNpL9p78w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_12388373-1332-455c-823c-4699f79aa4c6" Target="#_0906197b-c50f-44d8-9de0-203f296194d4"><Timestamp>2021-05-14 08:30:52</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
