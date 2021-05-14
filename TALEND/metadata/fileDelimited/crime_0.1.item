@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DelimitedFileConnection Encoding="US-ASCII" FieldSeparatorType="Comma" FieldSeparatorValue="&quot;,&quot;" FilePath="D:/Downloads/Police_Department_Incident_Reports__Historical_2003_to_May_2018.csv" FirstLineCaption="true" Format="WINDOWS" HeaderValue="1" RowSeparatorValue="&quot;\n&quot;" Server="Localhost 127.0.0.1" UseHeader="true" dataPackage="_CwpYIbR2EeuldsqpkhN3_Q" name="crime" xmi:id="_CwpYILR2EeuldsqpkhN3_Q"/>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_CwpYILR2EeuldsqpkhN3_Q" name="default" xmi:id="_CwpYIbR2EeuldsqpkhN3_Q">
+    <ownedElement id="_pRKtELR1EeuldsqpkhN3_Q" label="metadata" xmi:id="_CwpYIrR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="PdId" length="14" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Long" xmi:id="_CwpYI7R2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="IncidntNum" length="9" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYJLR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Incident_Code" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYJbR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Category" length="27" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYJrR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Descript" length="44" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYJ7R2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DayOfWeek" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYKLR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Date" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYKbR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Time" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYKrR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PdDistrict" length="9" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYK7R2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Resolution" length="8" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYLLR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Address" length="28" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYLbR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="X" length="26" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYLrR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Y" length="26" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYL7R2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="location" length="46" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYMLR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SF_Find_Neighborhoods_2_2" length="46" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYMbR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Current_Police_Districts_2_2" length="45" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYMrR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Current_Supervisor_Districts_2_2" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYM7R2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Analysis_Neighborhoods_2_2" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYNLR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DELETE___Fire_Prevention_Districts_2_2" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYNbR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DELETE___Police_Districts_2_2" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYNrR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DELETE___Supervisor_Districts_2_2" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYN7R2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DELETE___Zip_Codes_2_2" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYOLR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DELETE___Neighborhoods_2_2" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYObR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DELETE___2017_Fix_It_Zones_2_2" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYOrR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Civic_Center_Harm_Reduction_Project_Boundary_2_2" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYO7R2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Fix_It_Zones_as_of_2017_11_06__2_2" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYPLR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DELETE___HSOC_Zones_2_2" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYPbR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Fix_It_Zones_as_of_2018_02_07_2_2" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYPrR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="_CBD" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYP7R2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BID_and_GBD_Boundaries_as_of_2017_2_2_" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYQLR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="_Areas_of_Vulnerability" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYQbR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="_016_2_2_" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYQrR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Central_Market_Tenderloin_Boundary_2_2" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYQ7R2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Central_Market_Tenderloin_Boundary_Polygon___Updated_2_2" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYRLR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="HSOC_Zones_as_of_2018_06_05_2_2" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYRbR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="OWED_Public_Spaces_2_2" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYRrR2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="Neighborhoods_2" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_CwpYR7R2EeuldsqpkhN3_Q" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_273526f1-f34a-4ebf-b9de-f626b8270f4a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>fFvMha0MgvXzGKFcchQbLga704vHJbe6FMVK//G997cZQsNhaWbwOc1K1lMA3CXfJpsZddIdj/X+&#13;
+3HDHHuBoFg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_22bdb453-bb6a-4118-bd9e-6835a6d1bb5f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>n++VCENcG+jR0aZXoZuClMhmQnFNXLF7JKwi1kVTd4YM5Cd94sAlG5tf7SYP5S3fJCj4xq06ZOzj&#13;
+Zvejix2crQ==</DigestValue></Reference></SignedInfo><SignatureValue>Bp8lfY76+xPebm4lzxPe7yk0cxI1EhOjE5zfOFKpw3L5vyXKSBKZJxYS8y8x7J//kd2PHIZ9rHbF&#13;
+Z/Olg62lbJngCpJKnzcSqNZ1ECXn7YY6gRswKFhCryJtv1XMZtz0tnHp0bEwMW2X5LJUP90vZaRA&#13;
+0otmHdt/DYM+pJ02KoZjcZNrqFf25u2/Xi4IYVoL/2y7t9U6UY520bNtLRC3PqovvQH7y3VAgqIa&#13;
+kF5FbmYiQ/Ty4YhFH1IRQnWtivL/K2Jf7KqjUITfMSN4pyHgET9zvnZGOAMa42JjtxIXzlZCdvW5&#13;
+CShcLp6GMX1iDZNikHxqU1zFytJXXojrL/KNHA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_22bdb453-bb6a-4118-bd9e-6835a6d1bb5f" Target="#_273526f1-f34a-4ebf-b9de-f626b8270f4a"><Timestamp>2021-05-14 05:34:24</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
