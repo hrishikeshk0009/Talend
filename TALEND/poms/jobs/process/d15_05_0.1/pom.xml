@@ -137,11 +137,6 @@
       <artifactId>routines</artifactId>
       <version>7.3.1</version>
     </dependency>
-    <dependency>
-      <groupId>org.example.talend.job</groupId>
-      <artifactId>D15_05_child</artifactId>
-      <version>0.1.0</version>
-    </dependency>
   </dependencies>
   <build>
     <finalName>${talend.job.finalName}</finalName>
