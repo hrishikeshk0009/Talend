@@ -222,6 +222,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "TALEND:_UoLFYLVdEeuKnL_4XQsJ6Q",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
     "id" : "_J8qskLS7Eeud7rbCvgi4Ew",
     "version" : "Latest",
     "type" : "property"
