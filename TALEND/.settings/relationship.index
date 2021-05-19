@@ -84,6 +84,10 @@
     "id" : "_2OUYgLhxEeuLQ__2yOf0dA - EMPLOYEES",
     "version" : "Latest",
     "type" : "schema"
+  }, {
+    "id" : "_J8qskLS7Eeud7rbCvgi4Ew - employees",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
