@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DelimitedFileConnection FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" Server="Localhost 127.0.0.1" dataPackage="_924bcbhoEeuLQ__2yOf0dA" name="Test" xmi:id="_924bcLhoEeuLQ__2yOf0dA"/>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_924bcLhoEeuLQ__2yOf0dA" name="default" xmi:id="_924bcbhoEeuLQ__2yOf0dA">
+    <ownedElement id="_69RxELhoEeuLQ__2yOf0dA" label="metadata" xmi:id="_924bcrhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="iso_code" length="3" name="iso_code" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bc7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bdLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="continent" length="4" name="continent" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bdbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bdrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="location" length="11" name="location" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bd7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924beLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="date" length="10" name="date" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_924bebhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924berhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="total_cases" length="5" name="total_cases" pattern="&quot;dd-MM-yyyy&quot;" precision="2" talendType="id_Float" xmi:id="_924be7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bfLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="new_cases" length="4" name="new_cases" pattern="&quot;dd-MM-yyyy&quot;" precision="2" talendType="id_Float" xmi:id="_924bfbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bfrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="new_cases_smoothed" length="6" name="new_cases_smoothed" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bf7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bgLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="total_deaths" length="4" name="total_deaths" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bgbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bgrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="new_deaths" length="3" name="new_deaths" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bg7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bhLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="new_deaths_smoothed" length="5" name="new_deaths_smoothed" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bhbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bhrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="total_cases_per_million" length="6" name="total_cases_per_million" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_924bh7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924biLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="new_cases_per_million" length="5" name="new_cases_per_million" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_924bibhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924birhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="new_cases_smoothed_per_million" length="5" name="new_cases_smoothed_per_million" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bi7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bjLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="total_deaths_per_million" length="5" name="total_deaths_per_million" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bjbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bjrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="new_deaths_per_million" length="5" name="new_deaths_per_million" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bj7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bkLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="new_deaths_smoothed_per_million" length="5" name="new_deaths_smoothed_per_million" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bkbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bkrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="reproduction_rate" length="4" name="reproduction_rate" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bk7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924blLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="icu_patients" length="10" name="icu_patients" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924blbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924blrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="icu_patients_per_million" length="10" name="icu_patients_per_million" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bl7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bmLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="hosp_patients" length="10" name="hosp_patients" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bmbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bmrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="hosp_patients_per_million" length="10" name="hosp_patients_per_million" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bm7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bnLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="weekly_icu_admissions" length="10" name="weekly_icu_admissions" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bnbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bnrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="weekly_icu_admissions_per_million" length="10" name="weekly_icu_admissions_per_million" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bn7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924boLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="weekly_hosp_admissions" length="10" name="weekly_hosp_admissions" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bobhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924borhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="weekly_hosp_admissions_per_million" length="10" name="weekly_hosp_admissions_per_million" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bo7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bpLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="new_tests" length="10" name="new_tests" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bpbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bprhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="total_tests" length="10" name="total_tests" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bp7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bqLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="total_tests_per_thousand" length="10" name="total_tests_per_thousand" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bqbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bqrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="new_tests_per_thousand" length="10" name="new_tests_per_thousand" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bq7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924brLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="new_tests_smoothed" length="10" name="new_tests_smoothed" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924brbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924brrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="new_tests_smoothed_per_thousand" length="10" name="new_tests_smoothed_per_thousand" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924br7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bsLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="positive_rate" length="10" name="positive_rate" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bsbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bsrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="tests_per_case" length="10" name="tests_per_case" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bs7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924btLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="tests_units" length="10" name="tests_units" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924btbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924btrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="total_vaccinations" length="10" name="total_vaccinations" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bt7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924buLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="people_vaccinated" length="10" name="people_vaccinated" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bubhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924burhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="people_fully_vaccinated" length="10" name="people_fully_vaccinated" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bu7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bvLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="new_vaccinations" length="10" name="new_vaccinations" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bvbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bvrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="new_vaccinations_smoothed" length="10" name="new_vaccinations_smoothed" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bv7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bwLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="total_vaccinations_per_hundred" length="10" name="total_vaccinations_per_hundred" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bwbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bwrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="people_vaccinated_per_hundred" length="10" name="people_vaccinated_per_hundred" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bw7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bxLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="people_fully_vaccinated_per_hundred" length="10" name="people_fully_vaccinated_per_hundred" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bxbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bxrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="new_vaccinations_smoothed_per_million" length="10" name="new_vaccinations_smoothed_per_million" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924bx7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924byLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="stringency_index" length="5" name="stringency_index" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_924bybhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924byrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="population" length="10" name="population" pattern="&quot;dd-MM-yyyy&quot;" precision="2" talendType="id_Float" xmi:id="_924by7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bzLhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="population_density" length="6" name="population_density" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_924bzbhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924bzrhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="median_age" length="4" name="median_age" pattern="&quot;dd-MM-yyyy&quot;" precision="2" talendType="id_Float" xmi:id="_924bz7hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924b0LhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="aged_65_older" length="5" name="aged_65_older" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_924b0bhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924b0rhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="aged_70_older" length="5" name="aged_70_older" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_924b07hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924b1LhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="gdp_per_capita" length="8" name="gdp_per_capita" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_924b1bhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924b1rhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="extreme_poverty" length="10" name="extreme_poverty" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924b17hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924b2LhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="cardiovasc_death_rate" length="7" name="cardiovasc_death_rate" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_924b2bhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924b2rhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="diabetes_prevalence" length="4" name="diabetes_prevalence" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_924b27hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924b3LhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="female_smokers" length="10" name="female_smokers" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924b3bhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924b3rhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="male_smokers" length="10" name="male_smokers" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_924b37hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924b4LhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="handwashing_facilities" length="6" name="handwashing_facilities" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_924b4bhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924b4rhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="hospital_beds_per_thousand" length="3" name="hospital_beds_per_thousand" pattern="&quot;dd-MM-yyyy&quot;" precision="2" talendType="id_Float" xmi:id="_924b47hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924b5LhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="life_expectancy" length="5" name="life_expectancy" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_924b5bhoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924b5rhoEeuLQ__2yOf0dA"/>
+      </feature>
+      <feature label="human_development_index" length="5" name="human_development_index" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_924b57hoEeuLQ__2yOf0dA" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_924b6LhoEeuLQ__2yOf0dA"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_bb8a28fc-d685-411a-a3c8-b4d3bd9bc3d8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>tUxCtW5JH+BIb18F3DbDl99f+VA45xt4UFVyfRWBoWgdI71lyrLBN1mxLVbZBXkrGwHHgd+hc8Gk&#13;
+Vr85m2w4FQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b663d84f-9ac9-430e-865e-62ce66991b8d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>WGm/KEv/D+GJq8okAoFT8sZ9wGyuXf7WB2PO+ZEc2hNv4loc1hT5FE/nMsYspE8uv8lPJ9FC2H8r&#13;
+d6vHMtR5nw==</DigestValue></Reference></SignedInfo><SignatureValue>kyyrROIreDprGTbmWQGToupTmv7WJH5WrA7GcT4Req+Y7kSYuheTW+Ua79MipjKwgagI6E9sn1wC&#13;
+OaXuCb2PjA1OUqX5kxjJ7a/P6vpMC7i34aPaFQAUdjWV5MPZ/4W1/0hfTV66Dui75LKmx6+HglCD&#13;
+Rc4280vvsuTz5Yz5Y0pi1xPUmyYxprpGaGJlerKGKvUl0FKcf/YwWcRUi59hYX0d6xdFNWlTL5U8&#13;
+J0HlW3Q/X/fXn44xMCb/JyiY6H+X6qGdMd7I78FfShDl68J2mOE3pc9w9aMYTU9sFXctZ7UBy0N0&#13;
+fmQIYtEjKSjc8e+UKlLac2LtDAEk2fS6kPvJDw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b663d84f-9ac9-430e-865e-62ce66991b8d" Target="#_bb8a28fc-d685-411a-a3c8-b4d3bd9bc3d8"><Timestamp>2021-05-19 06:10:53</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
