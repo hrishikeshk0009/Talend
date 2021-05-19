@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<softwaredeployment:TdSoftwareSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:softwaredeployment="http://www.talend.org/cwm/foundation/softwaredeployment/2010" xmi:id="_3fI00LQLEeujrPo5oFWR1w" name="Oracle" subtype="Oracle" version="Oracle Database 18c Express Edition Release 18.0.0.0.0 - Production&#xA;Version 18.4.0.0.0"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:softwaredeployment="http://www.talend.org/cwm/foundation/softwaredeployment/2010">
+  <softwaredeployment:TdSoftwareSystem xmi:id="_3fI00LQLEeujrPo5oFWR1w" name="Oracle" subtype="Oracle" version="Oracle Database 18c Express Edition Release 18.0.0.0.0 - Production&#xA;Version 18.4.0.0.0"/>
+  <softwaredeployment:TdSoftwareSystem xmi:id="_ZOlcgLiiEeuLQ__2yOf0dA" name="MySQL" subtype="MySQL" version="8.0.24"/>
+</xmi:XMI>
