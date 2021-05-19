@@ -5,6 +5,18 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_85RNkLhxEeuLQ__2yOf0dA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_2OUYgLhxEeuLQ__2yOf0dA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_BOZk4LQLEeujrPo5oFWR1w",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
@@ -64,6 +76,62 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_2OUYgLhxEeuLQ__2yOf0dA - COUNTRIES",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_2OUYgLhxEeuLQ__2yOf0dA - DEPARTMENTS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_2OUYgLhxEeuLQ__2yOf0dA - EMPLOYEES",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_2OUYgLhxEeuLQ__2yOf0dA - JOBS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_2OUYgLhxEeuLQ__2yOf0dA - JOB_HISTORY",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_2OUYgLhxEeuLQ__2yOf0dA - LOCATIONS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_2OUYgLhxEeuLQ__2yOf0dA - REGIONS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_BOZk4LQLEeujrPo5oFWR1w - COUNTRIES",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_BOZk4LQLEeujrPo5oFWR1w - DEPARTMENTS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_BOZk4LQLEeujrPo5oFWR1w - EMPLOYEES",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_BOZk4LQLEeujrPo5oFWR1w - JOBS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_BOZk4LQLEeujrPo5oFWR1w - JOB_HISTORY",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_BOZk4LQLEeujrPo5oFWR1w - LOCATIONS",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_BOZk4LQLEeujrPo5oFWR1w - REGIONS",
+    "version" : "Latest",
+    "type" : "schema"
   }, {
     "id" : "_sfrHELSOEeuldsqpkhN3_Q - metadata",
     "version" : "Latest",
