@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="Oracle_Talend_Server" prompt="Oracle_Talend_Server?" promptNeeded="false" repositoryContextId="_85RNkLhxEeuLQ__2yOf0dA" type="id_String" value="DESKTOP-PGMASOH"/>
     <contextParameter comment="" name="Oracle_Talend_Schema" prompt="Oracle_Talend_Schema?" promptNeeded="false" repositoryContextId="_85RNkLhxEeuLQ__2yOf0dA" type="id_String" value="talend"/>
     <contextParameter comment="" name="Oracle_Talend_Login" prompt="Oracle_Talend_Login?" promptNeeded="false" repositoryContextId="_85RNkLhxEeuLQ__2yOf0dA" type="id_String" value="talend"/>
-    <contextParameter comment="" name="Oracle_Talend_Password" prompt="Oracle_Talend_Password?" promptNeeded="false" repositoryContextId="_85RNkLhxEeuLQ__2yOf0dA" type="id_Password" value="enc:system.encryption.key.v1:bVrrVAzBjpPZArM+OIwEOYzGWqA5Rhe41v3wRLWhHN4X"/>
+    <contextParameter comment="" name="Oracle_Talend_Password" prompt="Oracle_Talend_Password?" promptNeeded="false" repositoryContextId="_85RNkLhxEeuLQ__2yOf0dA" type="id_Password" value="enc:system.encryption.key.v1:esYzjob5R/5SpJiDowonuDrmRMOUyMFt9dHU6AcPdwWi"/>
     <contextParameter comment="" name="Oracle_Talend_Port" prompt="Oracle_Talend_Port?" promptNeeded="false" repositoryContextId="_85RNkLhxEeuLQ__2yOf0dA" type="id_String" value="1521"/>
     <contextParameter comment="" name="Oracle_Talend_AdditionalParams" prompt="Oracle_Talend_AdditionalParams?" promptNeeded="false" repositoryContextId="_85RNkLhxEeuLQ__2yOf0dA" type="id_String" value=""/>
     <contextParameter comment="" name="Oracle_Talend_ServiceName" prompt="Oracle_Talend_ServiceName?" promptNeeded="false" repositoryContextId="_85RNkLhxEeuLQ__2yOf0dA" type="id_String" value="XEPDB1"/>
@@ -11,7 +11,7 @@
     <contextParameter comment="" name="MYSQL_AdditionalParams" prompt="MYSQL_AdditionalParams?" promptNeeded="false" repositoryContextId="_QhetALijEeuLQ__2yOf0dA" type="id_String" value="noDatetimeStringSync=true"/>
     <contextParameter comment="" name="MYSQL_Database" prompt="MYSQL_Database?" promptNeeded="false" repositoryContextId="_QhetALijEeuLQ__2yOf0dA" type="id_String" value="Talend"/>
     <contextParameter comment="" name="MYSQL_Login" prompt="MYSQL_Login?" promptNeeded="false" repositoryContextId="_QhetALijEeuLQ__2yOf0dA" type="id_String" value="root"/>
-    <contextParameter comment="" name="MYSQL_Password" prompt="MYSQL_Password?" promptNeeded="false" repositoryContextId="_QhetALijEeuLQ__2yOf0dA" type="id_Password" value="enc:system.encryption.key.v1:JognhY/KcDvKvhyYVDKPgwk+PY/ngN8yudlUFGKgQBEJ"/>
+    <contextParameter comment="" name="MYSQL_Password" prompt="MYSQL_Password?" promptNeeded="false" repositoryContextId="_QhetALijEeuLQ__2yOf0dA" type="id_Password" value="enc:system.encryption.key.v1:I6nvNCX6Q+UwCsEG3ovS4jFuVe0jOgoswaihv+R8C+w4"/>
     <contextParameter comment="" name="MYSQL_Server" prompt="MYSQL_Server?" promptNeeded="false" repositoryContextId="_QhetALijEeuLQ__2yOf0dA" type="id_String" value="localhost"/>
   </context>
   <parameters>
@@ -56,7 +56,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:ksGUpPFgbfhHL1dG4/Aklsj1WhGVkTHfz5LfMG9i"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:qsn2gVYpxnKyXcXFJuuXRBKxzl1AL61z8QLjYKJ1"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -91,7 +91,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:VVsDI97E3D8oWngpNogjI3XibN7yArM/afrSqQe2"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:I6o1aUF1rKbXxohr85rBTrqdyw78tPL+8Zzd3hPK"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -143,13 +143,13 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.Oracle_Talend_ServiceName"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Oracle_Talend_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Oracle_Talend_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vAQ0+Ks0WOnWfIlgKWDB5CQMSeKPXIeIE/CSYAEdU5FguUXYjWuEAS1m9bobtpKu+BY/w8OvLy1zvA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UkbzGMYnKxUZHxR5tvfvDuf+5DFLUYXGrcAybMN5g6c1nVlxK3pzapFnxIvPAxkAvOMcru4YEM6Qug=="/>
     <elementParameter field="CHECK" name="USE_SSL" show="false" value="false"/>
     <elementParameter field="FILE" name="SSL_TRUSTSERVER_TRUSTSTORE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" show="false" value="enc:system.encryption.key.v1:ROWcy++TfzGdHx6ksgYbEGBb5rMnTNUsDugYWOBZ"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" show="false" value="enc:system.encryption.key.v1:qhGOGqqGnfXVPJKEXiFxarOQ0g/7+Vj9rdPw8v7K"/>
     <elementParameter field="CHECK" name="NEED_CLIENT_AUTH" show="false" value="false"/>
     <elementParameter field="FILE" name="SSL_KEYSTORE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:nArSn+9xr0oPRSa1Va9DljpAzBQ0iL4u7+nU0JQP"/>
+    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:pBPW9D/+PA+HsWBEkIne6fPly4fpLMcMX+efmQJZ"/>
     <elementParameter field="CHECK" name="DISABLE_CBC_PROTECTION" show="false" value="true"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -161,7 +161,7 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:thin:USER/MDP@server&quot;"/>
-    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
     <elementParameter field="TEXT" name="LABEL" value="Oracle_Talend"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
@@ -176,7 +176,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.MYSQL_Database"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.MYSQL_AdditionalParams"/>
     <elementParameter field="TEXT" name="USER" value="context.MYSQL_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gWjwuSRjWMuXzKL11ZbGeeUpkWNaLRZSBtP0RuFex0CPmhLIOsHB1cDXQWlY0OFzi5s="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:LEdZ+b8iyXe+IeM1KlZqmv6dvQNTh0elz2WKIpImaYyvgt7NtBVE4O+q9hvsmJkyCFU="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -192,11 +192,340 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_2OUYgLhxEeuLQ__2yOf0dA"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_18"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="context.Oracle_Talend_Server"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="context.Oracle_Talend_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="context.Oracle_Talend_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.Oracle_Talend_ServiceName"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.Oracle_Talend_ServiceName"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="context.Oracle_Talend_Schema"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="context.Oracle_Talend_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:YvrgWrowIOcvCat8lCGHClaOGSvZNGHqNg+xBY5mqlcN+ChjegaLpHaAziq1MMh6V2Fn8oJaJghFoQ=="/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_2OUYgLhxEeuLQ__2yOf0dA - EMPLOYEES"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;EMPLOYEES&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  &quot;+context.Oracle_Talend_Schema+&quot;.EMPLOYEES.EMPLOYEE_ID, &#10;  &quot;+context.Oracle_Talend_Schema+&quot;.EMPLOYEES.FIRST_NAME, &#10;  &quot;+context.Oracle_Talend_Schema+&quot;.EMPLOYEES.LAST_NAME, &#10;  &quot;+context.Oracle_Talend_Schema+&quot;.EMPLOYEES.EMAIL, &#10;  &quot;+context.Oracle_Talend_Schema+&quot;.EMPLOYEES.PHONE_NUMBER, &#10;  &quot;+context.Oracle_Talend_Schema+&quot;.EMPLOYEES.HIRE_DATE, &#10;  &quot;+context.Oracle_Talend_Schema+&quot;.EMPLOYEES.JOB_ID, &#10;  &quot;+context.Oracle_Talend_Schema+&quot;.EMPLOYEES.SALARY, &#10;  &quot;+context.Oracle_Talend_Schema+&quot;.EMPLOYEES.COMMISSION_PCT, &#10;  &quot;+context.Oracle_Talend_Schema+&quot;.EMPLOYEES.MANAGER_ID, &#10;  &quot;+context.Oracle_Talend_Schema+&quot;.EMPLOYEES.DEPARTMENT_ID&#10;FROM &quot;+context.Oracle_Talend_Schema+&quot;.EMPLOYEES&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.Oracle_Talend_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMPLOYEE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FIRST_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LAST_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMAIL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PHONE_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HIRE_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JOB_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SALARY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COMMISSION_PCT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MANAGER_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DEPARTMENT_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="EMPLOYEES" name="tDBInput_1">
+      <column comment="Primary key of employees table." key="true" length="6" name="EMPLOYEE_ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Primary key of employees table."/>
+      </column>
+      <column comment="First name of the employee. A not null column." key="false" length="20" name="FIRST_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="First name of the employee. A not null column."/>
+      </column>
+      <column comment="Last name of the employee. A not null column." key="false" length="25" name="LAST_NAME" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Last name of the employee. A not null column."/>
+      </column>
+      <column comment="Email id of the employee" key="false" length="25" name="EMAIL" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Email id of the employee"/>
+      </column>
+      <column comment="Phone number of the employee; includes country code and area code" key="false" length="20" name="PHONE_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Phone number of the employee; includes country code and area code"/>
+      </column>
+      <column comment="Date when the employee started on this job. A not null column." key="false" length="7" name="HIRE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Date when the employee started on this job. A not null column."/>
+      </column>
+      <column comment="Current job of the employee; foreign key to job_id column of the&#10;jobs table. A not null column." key="false" length="10" name="JOB_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Current job of the employee; foreign key to job_id column of the&#10;jobs table. A not null column."/>
+      </column>
+      <column comment="Monthly salary of the employee. Must be greater&#10;than zero (enforced by constraint emp_salary_min)" key="false" length="8" name="SALARY" nullable="true" pattern="" precision="2" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Monthly salary of the employee. Must be greater&#10;than zero (enforced by constraint emp_salary_min)"/>
+      </column>
+      <column comment="Commission percentage of the employee; Only employees in sales&#10;department elgible for commission percentage" key="false" length="2" name="COMMISSION_PCT" nullable="true" pattern="" precision="2" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Commission percentage of the employee; Only employees in sales&#10;department elgible for commission percentage"/>
+      </column>
+      <column comment="Manager id of the employee; has same domain as manager_id in&#10;departments table. Foreign key to employee_id column of employees table.&#10;(useful for reflexive joins and CONNECT BY query)" key="false" length="6" name="MANAGER_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Manager id of the employee; has same domain as manager_id in&#10;departments table. Foreign key to employee_id column of employees table.&#10;(useful for reflexive joins and CONNECT BY query)"/>
+      </column>
+      <column comment="Department id where employee works; foreign key to department_id&#10;column of the departments table" key="false" length="4" name="DEPARTMENT_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="Department id where employee works; foreign key to department_id&#10;column of the departments table"/>
+      </column>
+      <additionalProperties key="Comment" value="employees table. Contains 107 rows. References with departments,&#10;jobs, job_history tables. Contains a self reference."/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="480" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_ouGr0LkhEeubLv0FnAZiQg-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="Test">
+      <column comment="" key="true" length="10" name="EMP_Surrogate_Key" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="Flag" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="19" name="END_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables activateExpressionFilter="true" expressionFilter="row1.DEPARTMENT_ID != row2.DEPARTMENT_ID" name="Test" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row2.EMP_Surrogate_Key " name="EMP_Surrogate_Key" type="id_Integer"/>
+        <mapperTableEntries expression="row2.Flag " name="Flag" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row2.END_Date " name="END_Date" nullable="true" type="id_Date"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="EMPLOYEE_ID" type="id_BigDecimal"/>
+        <mapperTableEntries name="FIRST_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="LAST_NAME" type="id_String"/>
+        <mapperTableEntries name="EMAIL" type="id_String"/>
+        <mapperTableEntries name="PHONE_NUMBER" nullable="true" type="id_String"/>
+        <mapperTableEntries name="HIRE_DATE" type="id_Date"/>
+        <mapperTableEntries name="JOB_ID" type="id_String"/>
+        <mapperTableEntries name="SALARY" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="COMMISSION_PCT" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="MANAGER_ID" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="DEPARTMENT_ID" nullable="true" type="id_BigDecimal"/>
+      </inputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row2" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="EMP_Surrogate_Key" type="id_Integer"/>
+        <mapperTableEntries expression="row1.EMPLOYEE_ID " name="EMPLOYEE_ID" operator="=" type="id_BigDecimal"/>
+        <mapperTableEntries name="FIRST_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="LAST_NAME" type="id_String"/>
+        <mapperTableEntries name="EMAIL" type="id_String"/>
+        <mapperTableEntries name="PHONE_NUMBER" nullable="true" type="id_String"/>
+        <mapperTableEntries name="HIRE_DATE" type="id_Date"/>
+        <mapperTableEntries name="JOB_ID" type="id_String"/>
+        <mapperTableEntries name="SALARY" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="COMMISSION_PCT" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="MANAGER_ID" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="DEPARTMENT_ID" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Flag" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="Start_Date" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="END_Date" nullable="true" type="id_Date"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_J8qskLS7Eeud7rbCvgi4Ew"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="context.MYSQL_Server"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="context.MYSQL_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="context.MYSQL_Database"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="context.MYSQL_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ghFybVphmGuKzbg99jKgn120W76jcydte35Hn33PsMAndmORJQ1uE1fTZo2CuOo0lPs="/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_J8qskLS7Eeud7rbCvgi4Ew - employees_scd2"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;employees_scd2&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `employees_scd2`.`EMP_Surrogate_Key`, &#10;  `employees_scd2`.`EMPLOYEE_ID`, &#10;  `employees_scd2`.`FIRST_NAME`, &#10;  `employees_scd2`.`LAST_NAME`, &#10;  `employees_scd2`.`EMAIL`, &#10;  `employees_scd2`.`PHONE_NUMBER`, &#10;  `employees_scd2`.`HIRE_DATE`, &#10;  `employees_scd2`.`JOB_ID`, &#10;  `employees_scd2`.`SALARY`, &#10;  `employees_scd2`.`COMMISSION_PCT`, &#10;  `employees_scd2`.`MANAGER_ID`, &#10;  `employees_scd2`.`DEPARTMENT_ID`, &#10;  `employees_scd2`.`Flag`, &#10;  `employees_scd2`.`Start_Date`, &#10;  `employees_scd2`.`END_Date`&#10;FROM `employees_scd2`&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.MYSQL_AdditionalParams"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMP_Surrogate_Key"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMPLOYEE_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FIRST_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LAST_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMAIL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PHONE_NUMBER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HIRE_DATE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JOB_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SALARY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COMMISSION_PCT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MANAGER_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DEPARTMENT_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Flag"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Start_Date"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="END_Date"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="employees_scd2" name="tDBInput_2">
+      <column comment="" key="true" length="10" name="EMP_Surrogate_Key" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="6" name="EMPLOYEE_ID" nullable="false" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="FIRST_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="25" name="LAST_NAME" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="25" name="EMAIL" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="PHONE_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="HIRE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="JOB_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="8" name="SALARY" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="2" name="COMMISSION_PCT" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="6" name="MANAGER_ID" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="4" name="DEPARTMENT_ID" nullable="true" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="Flag" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="19" name="Start_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="19" name="END_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <additionalProperties key="Comment" value=""/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMP_Surrogate_Key"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Flag"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="END_Date"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_1">
+      <column comment="" key="true" length="10" name="EMP_Surrogate_Key" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="Flag" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="19" name="END_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDBConnection_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBConnection_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="Test" lineStyle="0" metaname="Test" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Test"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="8" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
@@ -214,13 +543,18 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_dda698ec-d53e-4c79-8388-f9b065d6b227"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hulCBST7g79RFIgL5rvgHE2+tZnXC7SAdBugTGCmkR96A/YJeHdxwFh/43Tx8cMHCfzWRN4kqpmQ&#13;
-PQ2Wan/dug==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e9d21de9-b861-4491-8a83-854e3d05b257"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qfimSPlXJiHo3yAJLq4zfdLJ7cX5T6Qjkg79EVUtz39C5rEQ6gIo39BZq8O86Ct6YWdrEWSezyWb&#13;
-lEFsmMqBQw==</DigestValue></Reference></SignedInfo><SignatureValue>OWqLWPwMylhp3yH8xEhqU+um6pIyB1WIBibjTICtjVBr4TsMeAhBRTjaynlPqOrQI0fS1l2dQ9Py&#13;
-54KYm9HbeoHa4Ra5bcU9NWQWx0MaLjwfWeCtytTcIKLC9q5JA+Gz5BGjOv674en2L8T/rFGiWknm&#13;
-7aoImEte4xhsvSzIptvmQLgG8HqZtaCvx9rghhCaSLQm8eiQB4KWUItqMGpbwPX+PoZHAjb4Qu2t&#13;
-J2YEDeYd8VQRjZq9Gn+vFl2hFx/ChyTp8oRM4/RQDZNb+FH8mCKG47yF4sgq3zJFzYZHqjeqc3ls&#13;
-WHGvGQHolmY3Sfg8UUV5hFwh/YZ5iW2tBbuaGQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_dc43697f-314a-4faf-8a46-957d3e838aac"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>s47/eSlFdp/xDoRlpoKwx6xOMh2OIZH/r+DabudEP3uDVYgNRRKDK+rrfpPkXAxh02nr68iGOQfN&#13;
+J4llsZRj4A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5a6ecc4f-29bb-4a53-9197-130f048f37f9"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ezsRTzIQNk5yal0QvQr/CLj1grRZMrYj6bg2meCZkPyQelfbryH8WmWa5rgGrbUkW+kCGNqsLADd&#13;
+66KQzdZqiw==</DigestValue></Reference></SignedInfo><SignatureValue>cmiDbNW1899Ud8XJrda0MuZFmrlXa0mVQVLlwHTd3H8Syzfx7c3iMSNxwoEU3HON4qr1+m1duGzU&#13;
+iztRjMjMDxU29c5ka9byaVVcsVUHJyoKJh7QAlIGzb9KK8BidyU3hvF5mL4/pZjUoYKKhHzb1ocM&#13;
+uTyrPWQH2n4zM8SJVq61sQThDgm0UVnuhpR/xKzJ/htUTEhWrB2VCJEMhDYiVnckrYcHY4DgcU5E&#13;
++z6h0S8J9XGZJC2Kbe/D3nmXNEiW4dm3j277vXgrGuBLYCC47jevT9J4oFsh6knvtj39/a7RtJLI&#13;
+noZlOacFDp7SESw+SGlbYSr12LBlk6xNJBHTeA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -242,4 +576,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e9d21de9-b861-4491-8a83-854e3d05b257" Target="#_dda698ec-d53e-4c79-8388-f9b065d6b227"><Timestamp>2021-05-20 04:21:40</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5a6ecc4f-29bb-4a53-9197-130f048f37f9" Target="#_dc43697f-314a-4faf-8a46-957d3e838aac"><Timestamp>2021-05-20 04:36:44</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
