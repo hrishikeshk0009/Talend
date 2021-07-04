@@ -570,10 +570,6 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
-  }, {
-    "id" : "__cbrgNzcEeuBmYj4o743Dg - metadata",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
