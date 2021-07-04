@@ -507,6 +507,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_O4MYcNzpEeuBmYj4o743Dg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
@@ -566,6 +570,10 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_O4MYcNzpEeuBmYj4o743Dg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   }, {
     "id" : "__cbrgNzcEeuBmYj4o743Dg - metadata",
     "version" : "Latest",
