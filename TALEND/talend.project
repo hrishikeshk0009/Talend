@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_eVlMwZ-OEeufnZAvXuNygg" label="Talend" description="Talend_Practice" language="java" technicalLabel="TALEND" author="_eVlz0J-OEeufnZAvXuNygg" productVersion="Talend Cloud Data Management Platform-7.3.1.20200219_1130" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/hrishikeshk0009/Talend.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_eVlMwZ-OEeufnZAvXuNygg" label="Talend" language="java" technicalLabel="TALEND" author="_eVlz0J-OEeufnZAvXuNygg" productVersion="Talend Cloud Data Management Platform-7.3.1.20200219_1130" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/hrishikeshk0009/Talend.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <componentsSettings xmi:id="_PvPBQLhiEeuLQ__2yOf0dA" name="DI|tArrayIn" family="Technical"/>
     <componentsSettings xmi:id="_PvPBQbhiEeuLQ__2yOf0dA" name="DI|tHashInput" family="Technical"/>
     <componentsSettings xmi:id="_PvPBQrhiEeuLQ__2yOf0dA" name="DI|tHashOutput" family="Technical"/>
@@ -13,4 +13,6 @@
   <TalendProperties:User xmi:id="_FiSNQL-CEeuxdKzPowHUmg" login="hk.practice.03@trial34185.us.talend.com" firstName="Test" lastName="Test"/>
   <TalendProperties:User xmi:id="_V7--QNvLEeuFl8NV7iAYnA" login="hk.practice.04@trial34606.us.talend.com" firstName="Deo" lastName="Test" type="DQ"/>
   <TalendProperties:User xmi:id="_V7--QdvLEeuFl8NV7iAYnA" login="hk.practice.04@trial34606.us.talend.com" firstName="Deo" lastName="Test" type="DQ"/>
+  <TalendProperties:User xmi:id="_kFD2APD5EeuuLcKSx9PelQ" login="hk.practice.05@trial01478.us.talend.com" firstName="test" lastName="test" type="DQ"/>
+  <TalendProperties:User xmi:id="_kFD2AfD5EeuuLcKSx9PelQ" login="hk.practice.05@trial01478.us.talend.com" firstName="test" lastName="test" type="DQ"/>
 </xmi:XMI>
