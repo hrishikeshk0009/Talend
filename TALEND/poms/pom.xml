@@ -27,6 +27,7 @@
     <module>jobs/process/d04_07_0.1</module>
     <module>jobs/process/d05_07_0.1</module>
     <module>jobs/process/d03_07_01_0.1</module>
+    <module>jobs/process/d03_07_02_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
